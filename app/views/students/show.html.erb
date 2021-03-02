@@ -1,1 +1,7 @@
 <h1><%= @student.to_s %></h1>
+<br>
+<h2><%= @student.active_message %></h2>
+<br>
+<div><%= button_to "Change Status", action: "activate" %></div>
+
+
